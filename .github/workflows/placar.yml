@@ -1,0 +1,22 @@
+name: Placar do Trabalho 02
+
+on: [push, workflow_dispatch]
+
+jobs:
+  placar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ler a linguagem escolhida
+        id: cfg
+        run: echo "linguagem=$(python3 -c "import json;print(json.load(open('t2.config.json'))['linguagem'])")" >> "$GITHUB_OUTPUT"
+      - uses: actions/setup-python@v5
+        if: steps.cfg.outputs.linguagem == 'python'
+        with: { python-version: '3.12' }
+      - uses: actions/setup-node@v4
+        if: steps.cfg.outputs.linguagem == 'node'
+        with: { node-version: '22' }
+      - name: Rodar o placar
+        run: |
+          if [ "${{ steps.cfg.outputs.linguagem }}" = "python" ]; then python placar.py | tee placar.txt; else node placar.mjs | tee placar.txt; fi
+          { echo '### Placar do Trabalho 02'; echo '```'; cat placar.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"

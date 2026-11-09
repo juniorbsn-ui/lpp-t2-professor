@@ -1,0 +1,51 @@
+[
+  {
+    "id": "fase0",
+    "arquivo": "00-ligar-os-servidores",
+    "titulo": "Ligar os servidores",
+    "xp": 5,
+    "distintivo": "🔌 Servidor no ar"
+  },
+  {
+    "id": "fase1",
+    "arquivo": "01-funcoes-impuras",
+    "titulo": "A caça às funções impuras",
+    "xp": 10,
+    "distintivo": "🧼 Puro de coração"
+  },
+  {
+    "id": "fase2",
+    "arquivo": "02-painel-de-audiencia",
+    "titulo": "O painel de dados",
+    "xp": 15,
+    "distintivo": "📊 Mestre dos dados"
+  },
+  {
+    "id": "fase3",
+    "arquivo": "03-fabrica-de-regras",
+    "titulo": "A fábrica de regras",
+    "xp": 15,
+    "distintivo": "🏭 Fábrica de funções"
+  },
+  {
+    "id": "fase4",
+    "arquivo": "04-esteira",
+    "titulo": "A esteira de curadoria",
+    "xp": 15,
+    "distintivo": "🚚 Mestre da esteira"
+  },
+  {
+    "id": "fase5",
+    "arquivo": "05-player",
+    "titulo": "O player sem estado",
+    "xp": 15,
+    "distintivo": "⏯️ Estado sob controle"
+  },
+  {
+    "id": "chefao",
+    "arquivo": "06-chefao",
+    "titulo": "Chefão: o Relatório Mensal",
+    "xp": 25,
+    "distintivo": "👑 Código de vitória"
+  }
+]

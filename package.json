@@ -1,0 +1,13 @@
+{
+  "name": "lpp-t2",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Trilha prática de programação funcional (LPP - UNIDAVI)",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "iniciar": "node iniciar.mjs",
+    "placar": "node placar.mjs",
+    "test": "node --test testes/"
+  }
+}

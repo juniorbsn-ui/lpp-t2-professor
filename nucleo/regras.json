@@ -1,0 +1,62 @@
+{
+  "formato_nome": [
+    "maiusculas",
+    "minusculas"
+  ],
+  "ordem_preco": [
+    "crescente",
+    "decrescente"
+  ],
+  "criterio_ranking": [
+    "medida",
+    "frequencia"
+  ],
+  "nota_min": [
+    1,
+    2,
+    3
+  ],
+  "mes_inatividade": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "arredondamento": [
+    "baixo",
+    "cima"
+  ],
+  "restricao": [
+    "ate",
+    "abaixo"
+  ],
+  "limiar_pct": [
+    0,
+    20,
+    40,
+    60
+  ],
+  "velocidade": [
+    1,
+    2,
+    3
+  ],
+  "passo_codigo": [
+    1,
+    2,
+    5,
+    10
+  ],
+  "promo_alvo": [
+    "mes_do_aniversario",
+    "mes_seguinte"
+  ],
+  "posicao_maxima": [
+    60,
+    120,
+    180,
+    240
+  ]
+}

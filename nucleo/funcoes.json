@@ -1,0 +1,23 @@
+{
+  "boas_vindas": "boas_vindas",
+  "padronizar_nomes": "padronizar_nomes_{usuarios}",
+  "registrar_evento": "registrar_{evento}",
+  "proximo_codigo": "proximo_codigo_{evento}",
+  "ordenar_itens": "ordenar_{itens}_por_preco",
+  "total_por_categoria": "total_por_{categoria}",
+  "itens_populares": "{itens}_mais_populares",
+  "usuarios_inativos": "{usuarios}_inativos",
+  "nota_media_por_categoria": "nota_media_por_{categoria}",
+  "criar_filtro_categoria": "criar_filtro_{categoria}",
+  "criar_restricao": "criar_restricao_classificacao_{item}",
+  "criar_desconto": "criar_desconto_{item}",
+  "criar_promo": "criar_promo_aniversario_{usuario}",
+  "pipe": "pipe",
+  "passo_limpar": "passo_limpar_{eventos}",
+  "passo_deduplicar": "passo_deduplicar_{eventos}",
+  "passo_ranquear": "passo_ranquear_{usuarios}",
+  "montar_esteira": "montar_esteira_{eventos}",
+  "aplicar_comando": "aplicar_comando_player",
+  "estado_final": "estado_final_do_player",
+  "gerar_relatorio": "gerar_relatorio_mensal"
+}
